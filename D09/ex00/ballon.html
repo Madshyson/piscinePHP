@@ -1,0 +1,28 @@
+<html>
+  <head>
+	<title>Ballon</title>
+	<script>
+      var size = 200;
+	  var color = "red";
+	  function expend()
+	  {
+		if (color == "red")
+			color = "green";
+		else if (color == "green")
+			color = "blue";
+		else if (color == "blue")
+			color = "red";
+		size += 10;
+	  }
+	  var elem;
+	  elem = document.getDocumentById('ballon');
+	  elem.BackgroundColor = color;
+	  elem.height = size;
+	  elem.width = size;
+    </script>
+  </head>
+  <body>
+	<div id="ballon", onclick="expend()">
+	</div>
+  </body>
+</html>

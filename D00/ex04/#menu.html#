@@ -1,0 +1,71 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- menu.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: mlavanan <marvin@42.fr>                    +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2016/06/14 10:13:58 by mlavanan          #+#    #+#            -->
+<!-- Updated: 2016/06/14 15:07:30 by mlavanan         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+<html>
+<head>
+  <title>menu SNCF</title>
+  <style>
+	#menu-deroulant, #menu-deroulant ul 
+	{
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	}
+	#menu-deroulant 
+	{
+	text-align: center;
+	}
+	#menu-deroulant li 
+	{
+	display: inline-block;
+	}
+	#menu-deroulant ul li 
+	{
+	display:inherit;
+	}
+	#menu-deroulant a 
+	{
+	text-decoration: none;
+	display: block;
+	color:#000000;
+	}
+	#menu-deroulant ul 
+	{
+	position: absolute;
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+	}
+	#menu-deroulant li:hover ul 
+	{
+	left: auto;
+	}
+  </style>
+</head>
+<ul id="menu-deroulant">
+  <li><a href="#">menu SNCF</a>
+	<ul>
+	  <li><a href="http://previews.123rf.com/images/jahoo/jahoo0805/jahoo080500008/3024413-Foot-sous-marin-long-sandwich-au-jambon-fromage-suisse-laitue-tomates-et-concombres-Vue-d-en-haut-is-Banque-d'images.jpg">Sandwich</a></li>
+	  <li><a href="#">Sandwich degeu</a></li>
+	  <li><a href="#">Cafe trop cher</a></li>
+	  <li><a href="#">Beignet Pas Frais</a></li>
+	</ul>
+  </li>
+  <li><a href="#">Menu Ratp</a>
+	<ul>
+	  <li><a href="#">rien</a></li>
+	  <li><a href="#">toujours rien</a></li>
+	  <li><a href="#">encore plus rien</a></li>
+	  <li><a href="#">...</a></li>
+	  </ul>
+	</li>
+</ul>
+</html>

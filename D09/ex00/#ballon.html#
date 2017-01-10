@@ -1,0 +1,22 @@
+<html>
+  <head>
+	<title>Ballon</title>
+	#ballon{}
+	<script>
+	  function expend()
+	  {
+		if (color == "red")
+			color = "green";
+		else if (color == "green")
+			color = "blue";
+		else if (color == "blue")
+			color = "red";
+		size += 10;
+	  }
+    </script>
+  </head>
+  <body>
+	<div id="ballon">
+	</div>
+  </body>
+</html>

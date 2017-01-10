@@ -1,0 +1,47 @@
+********************************************************************************
+                                                                                
+                                                          :::      ::::::::     
+     menu.css                                           :+:      :+:    :+:     
+                                                      +:+ +:+         +:+       
+     By: mlavanan <marvin@42.fr>                    +#+  +:+       +#+          
+                                                  +#+#+#+#+#+   +#+             
+     Created: 2016/06/14 15:18:13 by mlavanan          #+#    #+#               
+     Updated: 2016/06/14 15:18:13 by mlavanan         ###   ########.fr         
+                                                                                
+********************************************************************************
+
+<style>
+		#menu-deroulant,	#menu-deroulant ul
+    	{								 
+    	padding: 0;	
+    	margin: 0;	
+    	list-style:		none;
+    	}			
+    	#menu-deroulant
+    	    text-align: center;
+    }
+    #menu-deroulant li
+    {
+    display: inline-block;
+    }
+    #menu-deroulant ul li
+    {
+    display:inherit;
+    }
+    #menu-deroulant a
+    {
+    text-decoration: none;
+    display: block;
+    color:#000000;
+    }
+    #menu-deroulant ul
+    {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    }
+    #menu-deroulant li:hover ul
+    {
+    left: auto;
+    }
+ </style>

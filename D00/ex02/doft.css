@@ -1,0 +1,17 @@
+********************************************************************************
+                                                                                
+                                                          :::      ::::::::     
+     doft.css                                           :+:      :+:    :+:     
+                                                      +:+ +:+         +:+       
+     By: mlavanan <marvin@42.fr>                    +#+  +:+       +#+          
+                                                  +#+#+#+#+#+   +#+             
+     Created: 2016/06/13 23:22:51 by mlavanan          #+#    #+#               
+     Updated: 2016/06/13 23:23:50 by mlavanan         ###   ########.fr         
+                                                                                
+********************************************************************************
+
+<style>
+	h6{}
+	div {background-color:#909090; border-radius:10px;display:inline:block}
+	#bord {width:150px; height:500px; border-radius:10px; box-shadow:15px 15px 15px;}
+</style>

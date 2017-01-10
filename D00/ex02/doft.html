@@ -1,0 +1,68 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- doft.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: mlavanan <marvin@42.fr>                    +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2016/06/14 10:13:30 by mlavanan          #+#    #+#            -->
+<!-- Updated: 2016/06/14 10:13:32 by mlavanan         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+<html>
+
+  <head>
+	<title>Day of the 42</title>
+	<link rel="stylesheet" href="doft.css" type="text/css">
+  </head>
+  
+  <body bgcolor="#4f4f4f">
+	<div style="width:1600px; height:175px; border-radius:10px;box-shadow:15px 15px 15px; margin:1% 0  0 13%;">
+	  <img src="resources/day_of_the_42.png" alt="title" title="title" width="600" height="125" style="margin:20 50 50 50;">
+	  <img src="resources/loupe.png" alt="loupe" title="loupe" width="300" style="margin:30 0 0 550;">
+	  <div style="float:right;">
+		<a href="https://www.disney.com">
+		<img src="resources/reload.png" alt="reload" title="recommencer au d&eacute;but" width="30" style="margin:10 10 0 0"> 
+		</a> 
+		<br /><br /><br /><br /><br />
+		<a href="https://www.relaischateaux.com">
+		<img src="resources/close.gif" alt="close" title="Deconnecter" width="30" style="margin:20 10 0 0">
+		</a>
+	  </div>
+	</div>
+	<table style="margin: 30 0 0 13%">
+	  <td>
+		<div id="bord" style="margin:1% 0  0 13%;position:relative;bottom:128">
+		  <img src="resources/arrow.png" alt="avancer" title="avancer" width="75" style="margin:25 0 10 37;">
+		  <img src="resources/main.png" alt="prendre" title="prendre" width="75" style="margin:10 0 10 37;">
+		  <img src="resources/oeil.png" alt="regarder" title="regarder" width="75" style="margin:10 0 10 37;border-radius:10px; border:5px solid red;">
+		  <img src="resources/outil.png" alt="utiliser" title="utiliser" width="75" style="margin:10 0 10 37;">
+		  <img src="resources/chat-icon.png" alt="parler" title="parler" width="75" style="margin:10 0 10 37;">
+		</div>
+	  </td>
+	  <td>
+		<div style="width:1200px; height:700px; border-radius:10px; box-shadow:15px 15px 15px; margin:0 50 50 50;">
+		  <map name="map" id="Map">
+			<area alt="chair" title="chair" href="http://www.ikea.com" shape="poly" coords="465,426,438,438,424,453,399,463,377,465,359,457,352,448,349,430,349,413,353,398,331,334,359,330,388,341,403,351,411,372,414,391,415,403,454,395" />
+			<area alt="mac" title="mac" href="http://www.apple.com" shape="poly" coords="809,321,892,330,1000,339,1000,470,925,458,812,437" />
+		  </map>
+		  <img src="resources/cluster.jpg" alt="cluster" title="cluster" width="1180" height="680" usemap="map" style="margin:10 10 10 10" usemap="chairmap">
+		  </div>
+	  </td>
+	  <td>
+		<div id="bord" style="position:relative;bottom:128">
+		  <img src="resources/book.png" alt="book" title="book" width="75" style="margin:25 0 10 37">
+		  <img src="resources/towel.png" alt="towel" title="towel" width="75" style="margin:25 0 10 37">
+		  <div title="brick" style="margin:30 0 0 5; background-image:url(resources/brick.jpg); height:75; width:140; border-radius:0px"></div>
+		</div>
+	  </td>
+	</table>
+	<div style="width:600; height:180; background-color:#95ff8b;margin:0 0 0 210; font-size:18pt; padding:10 10 10 10; position:relative; bottom:150">
+      <font> Vous <font style="font-size:30pt;">entrez </font>alors dans une grande piece remplie</font>
+			d'<font style="text-shadow:10px 5px 8px #ff0000">ordinateurs</font>...<br />
+	  <font style="font-size:18pt"><i>-Bonjour, vous &ecirc;tes nouveau ici ?</i></font><br />
+	  <input type="text" size="71" style="margin:10 10 10 10;">
+	  <input type="submit" value="R&eacute;pondre">
+    </div>
+  </body>
+</html>
